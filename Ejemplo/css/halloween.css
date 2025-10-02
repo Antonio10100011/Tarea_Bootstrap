@@ -1,0 +1,118 @@
+body {
+    background: linear-gradient(135deg, #2d2d2d 0%, #4b1c4b 100%);
+    color: #f8f9fa;
+    font-family: 'Segoe UI', 'Arial', sans-serif;
+    letter-spacing: 0.5px;
+    min-height: 100vh;
+}
+.my-container {
+    width: 100%;
+    box-shadow: none;
+    border-radius: 0;
+    background: rgba(34,34,34,0.97);
+    margin: 0;
+    padding: 24px 0;
+    max-width: none;
+}
+header .navbar {
+    border-radius: 18px 18px 0 0;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+}
+.contenido h1 {
+    color: #ff9800;
+    text-shadow: 2px 2px 8px #000;
+    font-size: 2.5em;
+    font-weight: bold;
+    margin-bottom: 18px;
+    letter-spacing: 1px;
+    border-bottom: 2px solid #ff9800;
+    padding-bottom: 8px;
+}
+.contenido img, .carousel-item img {
+    border-radius: 12px;
+    box-shadow: 0 8px 32px rgba(0,0,0,0.6);
+    margin-bottom: 16px;
+    transition: transform 0.3s;
+}
+.contenido img:hover, .carousel-item img:hover {
+    transform: scale(1.04) rotate(-2deg);
+}
+
+.list-group-item {
+    background: #3a2a3a;
+    color: #fff;
+    border: none;
+    margin-bottom: 6px;
+    font-size: 1.08em;
+    transition: background 0.2s;
+}
+.list-group-item:hover {
+    background: #ff9800;
+    color: #222;
+}
+
+.list-group-item.active {
+    background: #ff9800;
+    color: #222;
+}
+.badge {
+    font-size: 1.1em;
+    padding: 8px 14px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+}
+.card {
+    background: #2d2d2d;
+    color: #fff;
+    border: 2px solid #ff9800;
+    border-radius: 16px;
+    margin: 10px;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.3);
+    transition: transform 0.2s;
+}
+.card:hover {
+    transform: scale(1.03);
+    border-color: #e65100;
+}
+
+.card-title {
+    color: #ff9800;
+}
+.btn-primary, .btn-outline-secondary {
+    background: #ff9800;
+    border: none;
+    color: #222;
+    font-weight: bold;
+    letter-spacing: 1px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+}
+.btn-primary:hover, .btn-outline-secondary:hover {
+    background: #e65100;
+    color: #fff;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.3);
+}
+footer {
+    background: #1a1a1a;
+    color: #ffd700;
+    border-radius: 0;
+    font-size: 1.1em;
+    padding: 14px 0;
+    margin-top: 32px;
+    box-shadow: none;
+    text-align: center;
+    width: 100%;
+}
+.ads {
+    background: #222;
+    border-radius: 12px;
+    color: #ff9800;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+    padding: 18px 12px;
+    margin-top: 18px;
+    font-size: 1.08em;
+    min-height: 120px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    width: 100%;
+        width: 100%;
+    }
